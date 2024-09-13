@@ -1,5 +1,6 @@
 img{
   width: 60%;
+  height: 50%;
   align-self: center;
 }
 
@@ -34,11 +35,15 @@ img{
 
 .title{
   font-size: 20px;
-  background-color: rgb(97, 64, 128);
+  background-color: #00CED1;
   color: white;
   text-align: center;
   margin:20px;
   padding:5px;
+}
+
+.position{
+    font-style: oblique;
 }
 
 .homepage_links{
@@ -123,4 +128,8 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+h1{
+    color:#00CED1;
 }
