@@ -46,10 +46,10 @@ class CarModel(models.Model):
     ]
     type = models.CharField(max_length=10, choices=CAR_TYPES, default='SUV')
     year = models.IntegerField(default=2024,
-        validators=[
-            MaxValueValidator(2024),
-            MinValueValidator(2015)
-        ])
+    validators=[
+        MaxValueValidator(2024),
+        MinValueValidator(2015)
+    ])
     # Other fields as needed
     color = models.CharField(max_length=10)
 
