@@ -16,7 +16,7 @@ table{
   .review_panel{
     display: flex;
     flex-direction: column;
-    border: solid grey;
+    border: solid #2A73CC;;
     position: relative;
     height:7cm;
     width:6cm;
@@ -59,7 +59,8 @@ table{
     margin: 10px; /* Optional margin for spacing */
     font-style: italic;
     color: gray;
-    font-size: small;
+    font-size: 16px;
+    text-align: center;
 }
 
 .review {
@@ -71,7 +72,7 @@ table{
   position:fixed;
     width:40px;
     height:40px;
-    background-color:#0C9;
+    background-color:#2A73CC;
     color:#FFF;
     border-radius:50px;
     text-align:center;
@@ -84,5 +85,5 @@ table{
 
 .review_icon:hover {
   transform: scale(1.1);
-  border: solid lightgray;
+  border: solid rgb(80, 120, 255);
 }
